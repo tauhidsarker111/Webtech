@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'LiKaiumSimanto';
+    src: url('LiKaiumSimanto.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BODY */
+body {
+    font-family: 'LiKaiumSimanto', Arial, sans-serif;
+    background: linear-gradient(to bottom, #006a4e, #f42a41);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* WRAPPER */
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* INPUT BOX */
+.input-box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* CARD */
+.card {
+    position: relative;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 35px 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* TITLE */
+.card h2 {
+    text-align: center;
+    color: #00703c;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* NAME */
+.name {
+    color: #d62828;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* TEXT */
+.card p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 12px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .card, .input-box {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .card img {
+        width: 70px;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}

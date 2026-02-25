@@ -1,39 +1,29 @@
-/* 1. Element Selector */
 h1 {
   color: darkblue;
   text-align: center;
 }
 
-/* 2. ID Selector */
 #mainTitle {
   background-color: lightgray;
-  padding: 15px; /* Box Model */
-  border: 3px solid black; /* Box Model */
+  padding: 15px;
+  border: 3px solid black;
 }
 
-/* 3. Class Selector */
 .description {
   font-size: 18px;
-  margin: 100px 0; /* Box Model */
+  margin: 50px;
   text-align: center;
 }
 
-/* 4. Attribute Selector */
-input[type="text"] {
-  border: 2px solid green;
-}
-
-/* 5. Class Selector for input */
 .input-field {
-  display: block; /* Display property */
-  max-width: 300px; /* Max Width property */
-  padding: 8px; /* Box Model */
-  margin: 10px auto; /* Box Model */
+  display: block;
+  max-width: 300px;
+  padding: 8px;
+  margin: 10px auto;
 }
 
-/* 6. Button Styling */
 .btn-submit {
-  display: inline-block; /* Inline Block property */
+  display: inline;
   padding: 10px 20px;
   background-color: blue;
   color: white;
@@ -42,7 +32,7 @@ input[type="text"] {
 }
 
 .btn-reset {
-  display: inline-block; /* Inline Block property */
+  display: inline;
   padding: 10px 20px;
   background-color: black;
   color: white;
@@ -50,7 +40,6 @@ input[type="text"] {
   cursor: pointer;
 }
 
-/* 7. Table Styling */
 .student-table {
   width: 60%;
   margin-top: 20px;
@@ -59,37 +48,25 @@ input[type="text"] {
 
 .student-table th,
 .student-table td {
-  border: 1px solid black; /* Box Model */
+  border: 1px solid black;
   padding: 10px;
   text-align: center;
 }
 
-/* 8. Positioning Example */
 .box1 {
   width: 150px;
   height: 100px;
   background-color: orange;
   position: relative;
-  top: 20px;
-  left: 20px;
-  z-index: 1; /* z-index property */
+  top: 50px;
+  left: 200px;
+  z-index: 1;
 }
 
-.box2 {
-  width: 150px;
-  height: 100px;
-  background-color: red;
-  position: absolute;
-  top: 100px;
-  left: 60px;
-  z-index: 0; /* z-index property */
-}
-
-/* 9. Overflow Example */
 .form-box {
-  max-width: 350px; /* Max Width */
+  max-width: 350px;
   height: 120px;
-  overflow: auto; /* Overflow property */
+  overflow: auto;
   border: 2px solid blue;
   padding: 10px;
   margin: 20px auto;

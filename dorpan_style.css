@@ -1,0 +1,96 @@
+/* 1. Element Selector */
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* 2. ID Selector */
+#mainTitle {
+  background-color: lightgray;
+  padding: 15px; /* Box Model */
+  border: 3px solid black; /* Box Model */
+}
+
+/* 3. Class Selector */
+.description {
+  font-size: 18px;
+  margin: 100px 0; /* Box Model */
+  text-align: center;
+}
+
+/* 4. Attribute Selector */
+input[type="text"] {
+  border: 2px solid green;
+}
+
+/* 5. Class Selector for input */
+.input-field {
+  display: block; /* Display property */
+  max-width: 300px; /* Max Width property */
+  padding: 8px; /* Box Model */
+  margin: 10px auto; /* Box Model */
+}
+
+/* 6. Button Styling */
+.btn-submit {
+  display: inline-block; /* Inline Block property */
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-reset {
+  display: inline-block; /* Inline Block property */
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* 7. Table Styling */
+.student-table {
+  width: 60%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid black; /* Box Model */
+  padding: 10px;
+  text-align: center;
+}
+
+/* 8. Positioning Example */
+.box1 {
+  width: 150px;
+  height: 100px;
+  background-color: orange;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1; /* z-index property */
+}
+
+.box2 {
+  width: 150px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  z-index: 0; /* z-index property */
+}
+
+/* 9. Overflow Example */
+.form-box {
+  max-width: 350px; /* Max Width */
+  height: 120px;
+  overflow: auto; /* Overflow property */
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 20px auto;
+}
